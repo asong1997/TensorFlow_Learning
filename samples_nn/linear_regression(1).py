@@ -45,7 +45,7 @@ def plot_scatter(data):
     x_data = data[:, 0]
     y_data = data[:, 1]
     plt.scatter(x_data, y_data)
-    plt.title("训练数据集散点分布")
+    plt.title("训练数据集和标签散点分布")
     plt.xlabel("自变量：x")
     plt.ylabel("因变量：y")
     plt.savefig("scatter.png")
