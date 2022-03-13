@@ -3,7 +3,6 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers, optimizers, datasets
 
-from keras.layers.pooling import MaxPooling2D
 
 # 设置TF的log等级为ERROR，也就是屏蔽通知和警告信息
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
